@@ -1,0 +1,41 @@
+body{
+	background: linear-gradient(90deg,#b2b8ab 50%, #d9e0cc 100%);
+    padding-top: 90px;
+
+}
+.image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.text{
+	text-align: center;
+
+}
+.footer.footer-black{
+	background: black;
+
+}
+.footer{
+	line-height: 20px;
+}
+*{
+	box-sizing: border-box;
+}
+.footer nav.pull-left{
+	float: none !important;
+}
+li{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.navbar-inverse{
+	background: linear-gradient(90deg,#DE2626 30%, #DB4040 100%);
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+}
